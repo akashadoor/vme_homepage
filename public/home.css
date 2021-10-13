@@ -1,0 +1,157 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 58;
+  left: 0;
+  background-image: url(sidenav.png);
+  background-color: #add8e6;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 13px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 1px 4px #00000029;
+}
+
+.topnav a {
+  float: right;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+.roundtable{
+  background: #fff;
+  border: 3px solid #0000;
+  
+}
+
+
+#ip1 {
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px; 
+    width: 285px;
+    height: 10px;
+    text-align: right;  
+    position: center  
+}
+
+.button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 285px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.button2 {
+    
+   background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 15px 20px;
+}
+
+#radio {
+  
+  font-size: 12px;
+}
+
+#person {
+  margin: 10px 0px;
+}
+
+#subbar {
+  
+  width: 100%;
+  padding: 35px;
+  box-shadow: 8px 2px 18px #888888;
+  margin: 4px 10px;
+  left: 0;
+
+
+}  
